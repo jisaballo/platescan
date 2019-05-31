@@ -8,9 +8,9 @@ import { OpenALPRResult } from "@ionic-native/openalpr/ngx";
 })
 export class ResultModal {
   // Array of OpenALPRResults.
-  protected result: OpenALPRResult[];
-  //Chosen country.
-  protected country: string;
+  result: OpenALPRResult[];
+  // Chosen country.
+  country: string;
 
   /**
    * Constructor.

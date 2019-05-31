@@ -1,10 +1,6 @@
 import { Component } from "@angular/core";
 import { Camera, CameraOptions } from "@ionic-native/camera/ngx";
-import {
-  OpenALPR,
-  OpenALPROptions,
-  OpenALPRResult
-} from "@ionic-native/openalpr/ngx";
+import { OpenALPR, OpenALPROptions, OpenALPRResult } from "@ionic-native/openalpr/ngx";
 import { Platform, ModalController } from "@ionic/angular";
 import { ResultModal } from "../result/result.page";
 
@@ -16,11 +12,11 @@ import { ResultModal } from "../result/result.page";
  * Class HomePage
  */
 export class HomePage {
-  //Camera options.
+  // Camera options.
   protected cameraOptions: CameraOptions;
-  //OpenALPR options.
+  // OpenALPR options.
   protected openAlprOptions: OpenALPROptions;
-  //Countries array.
+  // Countries array.
   public countries: string[] = [];
 
   /**
